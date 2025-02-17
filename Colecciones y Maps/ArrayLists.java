@@ -9,7 +9,8 @@ public class ArrayLists {
         lista.add(new Persona(2, "Dani", 21));
         lista.add(new Persona(3, "Theo", 21));
         lista.add(new Persona(4, "Carlos", 22));
-
+        lista.add(0, new Persona(5, "Luis", 23));
+        lista.add(4, new Persona(6, "Luis", 24));
         System.out.println(lista.get(3));
 
         System.out.println("----------Acceso del toString----------");
