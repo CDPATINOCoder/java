@@ -84,6 +84,14 @@ public class HashMaps {
         //getOrDefault, evita NullPointerException, devuelve un valor por defecto en caso de que no exista la clave
         System.out.println(edades.getOrDefault("Cesar", 0));
 
+
+        HashMap<Integer, Persona> personas = new HashMap<>();
+
+        System.out.println("------------------------------------");
+        personas.put(1, new Persona(1, "Cesar", 20));
+        personas.put(2, new Empleado(2, "Eduardo", 20, 31112));
+        System.out.println(personas);
+
     }
 
 }
